@@ -1,0 +1,22 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@egjs/flicking": "^4.11.0",
+    "panzoom": "^9.4.3"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
